@@ -1,0 +1,32 @@
+.wrapper {
+    display: flex;
+    height: 100px;
+    align-items: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center
+}
+
+.headerMenu {
+    display: flex;
+}
+
+.menuItem:not(:last-child) {
+    padding-right: 70px;
+}
+.menuLink {
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: 300;
+}
+.menuLink:hover {
+    color: #3D117E;
+}
+
