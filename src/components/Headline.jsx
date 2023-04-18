@@ -1,13 +1,16 @@
-import styles from "../styles/Headline.module.css"
+import styles from "../styles/Headline.module.css";
+import ButtonPrimary from "./ui/Buttons"
 const Headline = () => {
     return (
-        <section class={styles.headline}>
-            <div class={styles.container}>
+        <section className={styles.headline}>
+            <div className={styles.container}>
                 <div className={styles.titleContainer}>
-                    <h1 class={styles.title}>PROschool</h1>
-                    <p class={styles.description}>Подготовка к ОГЭ/ЕГЭ</p>
+                    <h1 className={styles.title}>PROschool</h1>
+                    <p className={styles.description}>Подготовка к ОГЭ/ЕГЭ</p>
                 </div>
-                <button class={`${styles.buttonMain} ${styles.buttonMainTwo}`}>Курсы</button>
+                <div className={styles.buttonsWrapper}>
+                    <ButtonPrimary title="ОГЭ"/>
+                </div>
             </div>
         </section>
     )

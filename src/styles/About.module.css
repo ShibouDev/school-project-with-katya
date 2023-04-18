@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    justify-content: center;
+}
+
+.aboutItems {
+    font-family: 'Proxima Nova';
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    }
