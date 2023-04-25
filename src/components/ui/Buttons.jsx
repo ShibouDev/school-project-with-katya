@@ -1,7 +1,12 @@
 import styles from '../../styles/ui/Button.module.css'
 const ButtonPrimary = ({title}) => {
     return (
-            <button className={styles.button}>{title}</button>
+            <button className={styles.buttonPrimary}>{title}</button>
     )
 }
-export default ButtonPrimary
+const ButtonSecondary = ({title}) =>{
+    return (
+        <button className={styles.buttonSecondary}>{title}</button>
+    )
+}
+export {ButtonPrimary, ButtonSecondary}

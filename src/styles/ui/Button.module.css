@@ -1,4 +1,4 @@
-.button{
+.buttonPrimary{
     background: #000000;
     border-radius: 10px;
     color: #fff;
@@ -6,6 +6,17 @@
     border: none;
     cursor: pointer;
 }
-.button:hover{
+.buttonPrimary:hover{
     background: #3D117E;
+}
+.buttonPrimary:not(:first-child){
+    margin-left: 30px;
+}
+.buttonSecondary{
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #000;
+    color: #000;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
 }

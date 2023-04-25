@@ -5,22 +5,30 @@
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1370px;
     margin: 0 auto;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    align-content: center
+    align-content: center;
+    width: 100%;
 }
-
+.logoTxt{
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 35px;
+}
 .headerMenu {
     display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
 }
-
+/*
 .menuItem:not(:last-child) {
     padding-right: 70px;
-}
+} */
 .menuLink {
     font-size: 25px;
     line-height: 25px;
