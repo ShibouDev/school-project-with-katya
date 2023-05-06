@@ -1,6 +1,6 @@
 import styles from "../styles/About.module.css"
 import { AboutData } from "../data/AboutData"
-
+import parse from 'html-react-parser'
 const About = () => {
     return (
         <section className={styles.about}>
@@ -9,7 +9,7 @@ const About = () => {
                     <div className={styles.aboutItemContainer}>
                         {AboutData.map((el, index) => (
                             <div className={styles.aboutItem}>
-                                <p>{el.text}</p>
+                                <p className={styles.aboutItemText}>{parse(el.text)}</p>
                             </div>
                         ))}
                     </div>

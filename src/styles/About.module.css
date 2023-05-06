@@ -34,13 +34,21 @@
   line-height: 30px;
   display: flex;
   align-items: center;
+  flex-flow: column-reverse;
+  max-width: 80%;
   color: #ffffff;
+}
+.aboutItemText strong {
+  font-size: 35px;
+  font-weight: 400;
+  color: #B682FE !important;
 }
 .aboutItem::before{
     content: "";
-    position: absolute;
+    /* position: absolute; */
     width: 100%;
     bottom: 0;
     height: 2px;
+    margin-top: 15px;
     background: #fff;
 }
