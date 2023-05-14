@@ -19,32 +19,32 @@
 }
 .title {
     font-weight: 700;
-    font-size: 150px;
+    font-size: 100px;
     text-align: center;
-    line-height: 150px;
+    line-height: 100px;
 
 }
 .description {
     font-weight: 300;
-    font-size: 30px;
-    line-height: 30px;
+    font-size: 20px;
+    line-height: 20px;
     text-align: left;
     display: flex;
     font-style: italic;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 .descriptionStrong{
     font-weight: 700;
     margin-left: 10px;
 }
 .buttonMain {
-    margin-top: 15px;
+    margin-top: 0px;
     font-family: 'Proxima nova';
     font-weight: 300;
-    font-size: 15px;
+    font-size: 20px;
     color: white;
     border: none;
-    padding: 8px 35px 8px 35px;
+    padding: 0;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -63,7 +63,10 @@
     background-color: #000000;
     color: white;
 }
-.buttonsWrapper{
+.buttonsWrapper {
     display: flex;
-    margin-top:
+}
+
+.buttonsWrapper, .buttonSecondary {
+    margin-left: 15px !important;
 }

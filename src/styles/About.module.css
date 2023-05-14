@@ -29,17 +29,17 @@
 }
 .aboutItem {
   font-family: "Proxima Nova";
-  font-weight: 400;
-  font-size: 35px;
-  line-height: 30px;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 25px;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   flex-flow: column-reverse;
   max-width: 80%;
   color: #ffffff;
 }
 .aboutItemText strong {
-  font-size: 35px;
+  font-size: 25px;
   font-weight: 400;
   color: #B682FE !important;
 }

@@ -4,9 +4,9 @@ const ButtonPrimary = ({title}) => {
             <button className={styles.buttonPrimary}>{title}</button>
     )
 }
-const ButtonSecondary = ({title}) =>{
+const ButtonSecondary = ({title, itsHeadline}) =>{
     return (
-        <button className={styles.buttonSecondary}>{title}</button>
+        <button className={itsHeadline ? `${styles.buttonSecondary} ${styles.ml15}` : styles.buttonSecondary}>{title}</button>
     )
 }
 export {ButtonPrimary, ButtonSecondary}

@@ -1,0 +1,62 @@
+.container {
+    max-width: 1370px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+}
+
+.ogeItemContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+    grid-auto-rows: 300px;
+    align-items: center;
+}
+
+.ogeItemPurple {
+    background: #9C73FF;
+    border-radius: 25px;    
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ogeItemBlue {
+    background:#7378FF;
+    border-radius: 25px;    
+}
+.ogeItemContainer2 {
+    padding: 50px 40px 50px 40px;
+}
+
+.ogeItemHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ogeItemHeaderText {
+    width: 70%;
+    font-family: 'Proxima Nova';
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.ogeItemBody {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    color: white;
+}
+.buttonSecondary{
+        margin-top: 20px;
+}
+
+

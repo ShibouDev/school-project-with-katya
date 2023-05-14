@@ -16,8 +16,8 @@
 }
 .logoTxt{
     font-weight: 700;
-    font-size: 35px;
-    line-height: 35px;
+    font-size: 30px;
+    line-height: 30px;
 }
 .headerMenu {
     display: flex;
@@ -30,11 +30,16 @@
     padding-right: 70px;
 } */
 .menuLink {
-    font-size: 25px;
-    line-height: 25px;
+    font-size: 20px;
+    line-height: 20px;
     font-weight: 300;
 }
 .menuLink:hover {
     color: #3D117E;
 }
-
+.menuList{
+    display: flex;
+}
+.menuItem:not(:first-child){
+    margin-left: 64px;
+}

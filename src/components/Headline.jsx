@@ -1,5 +1,6 @@
 import styles from "../styles/Headline.module.css";
-import {ButtonPrimary} from "./ui/Buttons";
+import {ButtonPrimary, ButtonSecondary} from "./ui/Buttons";
+
 const Headline = () => {
   return (
     <section className={styles.headline}>
@@ -18,6 +19,7 @@ const Headline = () => {
         <div className={styles.buttonsWrapper}>
           <ButtonPrimary title="ОГЭ" />
           <ButtonPrimary title="ЕГЭ" />
+          <ButtonSecondary title="Пробный экзамен" itsHeadline={true}/>
         </div>
       </div>
     </section>

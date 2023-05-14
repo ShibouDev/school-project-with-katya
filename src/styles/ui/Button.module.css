@@ -2,7 +2,7 @@
     background: #000000;
     border-radius: 10px;
     color: #fff;
-    padding: 10px 35px 10px 35px;
+    padding: 15px 50px 15px 50px;
     border: none;
     cursor: pointer;
 }
@@ -10,13 +10,16 @@
     background: #3D117E;
 }
 .buttonPrimary:not(:first-child){
-    margin-left: 30px;
+    margin-left: 10px;
 }
 .buttonSecondary{
-    background-color: #fff;
+    background-color: transparent;
     border-radius: 10px;
     border: 1px solid #000;
     color: #000;
-    padding: 10px 20px 10px 20px;
+    padding: 15px 20px 15px 20px;
     cursor: pointer;
+}
+.ml15{
+    margin-left: 10px;
 }
