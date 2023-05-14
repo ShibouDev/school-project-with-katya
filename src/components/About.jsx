@@ -8,7 +8,7 @@ const About = () => {
                     <h2 className={styles.title}>О школе</h2>
                     <div className={styles.aboutItemContainer}>
                         {AboutData.map((el, index) => (
-                            <div className={styles.aboutItem}>
+                            <div className={styles.aboutItem} key={index}>
                                 <p className={styles.aboutItemText}>{parse(el.text)}</p>
                             </div>
                         ))}
