@@ -1,15 +1,18 @@
 .headline{
     text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 .container {
+    margin-top: 220px;
     display: flex;
     align-items: center;
     flex-direction: column;
-    height: 100vh;
+    height: 100%;
     max-width: 1370px;
-    margin: 0 auto;
     padding: 0;
-    justify-content: center;
+    margin-bottom: 180px;
 }
 .titleContainer{
     display: flex;
@@ -18,20 +21,25 @@
     align-items: center;
 }
 .title {
-    font-weight: 700;
-    font-size: 100px;
+    font-weight: 300;
+    font-size: 75px;
     text-align: center;
-    line-height: 100px;
-
+    line-height: 80px;
+    padding: 0 10% 0 10%;
+}
+.vectorSvg{
+    margin-bottom: 10px;
 }
 .description {
     font-weight: 300;
     font-size: 20px;
     line-height: 20px;
-    text-align: left;
+    text-align:center;
     display: flex;
-    font-style: italic;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
+    font-weight: 400;
+    padding: 0 15% 0 15%;
+    font-family: 'Didact-Gothic', sans-serif;
 }
 .descriptionStrong{
     font-weight: 700;

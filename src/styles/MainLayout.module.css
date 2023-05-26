@@ -35,7 +35,7 @@
     font-weight: 300;
 }
 .menuLink:hover {
-    color: #3D117E;
+    color: var(--color-purple);
 }
 .menuList{
     display: flex;

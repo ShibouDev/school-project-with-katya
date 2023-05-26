@@ -8,7 +8,9 @@
     align-content: center;
     width: 100%;
 }
-
+.item{
+    background: var(--color-gradient-purple);
+}
 .ogeItemContainer {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -19,7 +21,7 @@
 
 .ogeItemPurple {
     background: #9C73FF;
-    border-radius: 25px;    
+    border-radius: 25px;
 }
 .content{
     display: flex;
@@ -29,7 +31,7 @@
 }
 .ogeItemBlue {
     background:#7378FF;
-    border-radius: 25px;    
+    border-radius: 25px;
 }
 .ogeItemContainer2 {
     padding: 50px 40px 50px 40px;

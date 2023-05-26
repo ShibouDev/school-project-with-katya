@@ -1,5 +1,5 @@
-import styles from "../styles/Oge.module.css"
 import { OgeData } from "../data/OgeData"
+import styles from "../styles/Oge.module.css"
 import { ButtonSecondary } from './ui/Buttons'
 const Oge = () => {
     return (
@@ -9,7 +9,7 @@ const Oge = () => {
                 <h2 className={styles.title2}>ОГЭ</h2>
                 <div className={styles.ogeItemContainer}>
                     {OgeData.map((el, index) => (
-                        <div className={index === 1 ? styles.ogeItemBlue : index === 2 ? styles.ogeItemBlue : styles.ogeItemPurple} key={index}>
+                        <div className={styles.item} key={index}>
                             <div className={styles.ogeItemContainer2}>
                                 <div className={styles.ogeItemHeader}>
                                     <p className={styles.ogeItemHeaderText}>{el.title}</p>
