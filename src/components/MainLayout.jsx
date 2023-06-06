@@ -8,13 +8,13 @@ const MainLayout = ({ children }) => {
             <header className={styles.wrapper}>
                 <div className={styles.container}>
                     <div className={styles.headerMenu}>
-                        <div className={styles.logoTxt}>PROschool</div>
+                        <a href='/' className={styles.logoTxt}>PROschool</a>
                         <ul className={styles.menuList}>
-                        {HeaderLink.map((el) => (
+                            {HeaderLink.map((el) => (
                                 <li className={styles.menuItem}>
                                     <a className={styles.menuLink} href={el.href}>{el.title}</a>
                                 </li>
-                        ))}
+                            ))}
                         </ul>
                         <div className={styles.tooltips}>
                             <ButtonSecondary title="Консультация" />

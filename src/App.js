@@ -1,20 +1,15 @@
-import Headline from "./components/Headline";
-import MainLayout from "./components/MainLayout";
-import About from "./components/About";
-import Oge from "./components/Oge"
-import FAQ from "./components/FAQ";
+import MainPage from "./pages/index"
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import DisciplinesPage from "./pages/disciplines";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <MainLayout>
-        <Headline/>
-        <About/>
-        <Oge/>
-        {/* <EGE/> */}
-        <FAQ/>
-      </MainLayout>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<MainPage />} />
+        <Route path="/disciplines" element={<DisciplinesPage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

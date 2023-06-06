@@ -1,0 +1,18 @@
+body {
+    background-color: #F5F5F5;
+}
+.container {
+    display: flex;
+    align-items: center;
+    max-width: 1370px;
+    margin: 0 auto;
+    padding: 0;
+    justify-content: center;
+}
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 50px;
+    grid-auto-rows: 550px;
+    align-items: center;
+}

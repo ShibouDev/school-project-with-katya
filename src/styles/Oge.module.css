@@ -8,7 +8,7 @@
     align-content: center;
     width: 100%;
 }
-.item{
+.item {
     background: var(--color-gradient-purple);
 }
 .ogeItemContainer {
@@ -20,17 +20,17 @@
 }
 
 .ogeItemPurple {
-    background: #9C73FF;
+    background: #9c73ff;
     border-radius: 25px;
 }
-.content{
+.content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .ogeItemBlue {
-    background:#7378FF;
+    background: #7378ff;
     border-radius: 25px;
 }
 .ogeItemContainer2 {
@@ -44,11 +44,11 @@
 
 .ogeItemHeaderText {
     width: 70%;
-    font-family: 'Proxima Nova';
+    font-family: "Proxima Nova";
     font-weight: 300;
     font-size: 25px;
     line-height: 25px;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 .ogeItemBody {
@@ -57,8 +57,6 @@
     width: 50%;
     color: white;
 }
-.buttonSecondary{
-        margin-top: 20px;
+.buttonSecondary {
+    margin-top: 20px;
 }
-
-
