@@ -1,0 +1,50 @@
+.disciplinesItem{
+    width: 400px;
+    height: 524px;
+    border-radius: 25px;
+    background-color: white;
+}
+.containerInfo {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    flex-direction: column;
+}
+.title {
+    font-family: Unbounded;
+    font-style: 500;
+    font-size: 25px;
+    line-height: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.description {
+    font-family: Didact Gothic;
+    font-style: 300;
+    font-size: 20px;
+    line-height: 20px;
+}
+.tooltip {
+    font-family: Didact Gothic;
+    font-style: 300;
+    font-size: 20px;
+    line-height: 20px;
+}
+.price {
+    font-family: Didact Gothic;
+    font-style: 300;
+    font-size: 20px;
+    line-height: 20px;
+}
+img {
+    width: 400px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.tooltipsAndPrice {
+    display: flex;
+    justify-content: space-between;
+}
