@@ -1,0 +1,21 @@
+.aboutItem {
+    width: 300px;
+    height: 370px;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+}
+
+.title {
+    padding-top: 50px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.description {
+    padding: 30px 40px 30px 40px;
+    font-family: Didact Gothic;
+    font-style: Regular;
+    font-size: 20px;
+    line-height: 20px;
+}
