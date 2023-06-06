@@ -20,6 +20,11 @@
     padding: 10px;
     cursor: pointer;
 }
+.buttonSecondary:hover{
+    background: var(--color-purple);
+    color: #fff;
+    border: 1px solid #fff;
+}
 .ml15{
     margin-left: 10px;
 }

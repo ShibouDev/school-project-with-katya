@@ -1,7 +1,7 @@
 import styles from '../../styles/ui/Button.module.css'
-const ButtonPrimary = ({title}) => {
+const ButtonPrimary = ({title, circle}) => {
     return (
-            <button className={styles.buttonPrimary}>{title}</button>
+            <button className={styles.buttonPrimary} style={circle && {borderRadius: '999px'}}>{title}</button>
     )
 }
 const ButtonSecondary = ({title, itsHeadline}) =>{
@@ -9,4 +9,6 @@ const ButtonSecondary = ({title, itsHeadline}) =>{
         <button className={itsHeadline ? `${styles.buttonSecondary} ${styles.ml15}` : styles.buttonSecondary}>{title}</button>
     )
 }
-export {ButtonPrimary, ButtonSecondary}
+
+export { ButtonPrimary, ButtonSecondary }
+
