@@ -27,7 +27,7 @@ const MainLayout = ({ children }) => {
                         </ul>
                         <div className={styles.tooltips}>
                             <div className={styles.tooltip} onClick={() => setOpenModal(true)}>
-                                <ButtonSecondary title="Консультация" />
+                                <ButtonSecondary title="Регистрация" />
                             </div>
                             <div className={styles.tooltip} onClick={() => !AuthToken ? setOpenModal(true) : Logout()}>
                                 {!AuthToken ?

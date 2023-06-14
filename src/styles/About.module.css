@@ -1,54 +1,32 @@
 .about {
-  width: 100%;
-  background-color: #111111;
-  border-radius: 90px;
-  height: 100vh;
-  display: flex;
-}
-.container {
-  display: flex;
-  align-items: center;
-  max-width: 1370px;
-  margin: 0 auto;
-  padding: 0;
-  justify-content: center;
-}
-.title {
-  font-size: 100px;
-  font-weight: 700;
-  line-height: 100px;
-  writing-mode: vertical-rl;
-  rotate: 180deg;
-  color: #fff;
-}
-.aboutItemContainer {
-  height: 440px;
+  background-color: #F5F5F5;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  text-align: center;
+  align-items: center;
 }
-.aboutItem {
-  font-family: "Proxima Nova";
+
+.title {
+  display: flex;
+  justify-content: center;
   font-weight: 300;
   font-size: 25px;
-  line-height: 25px;
-  display: flex;
-  /* align-items: center; */
-  flex-flow: column-reverse;
-  max-width: 80%;
-  color: #ffffff;
+  line-height: 30px;
+  color: #11111185;
+  text-align: center;
+  padding-top: 95px;
+  padding-bottom: 115px;
 }
-.aboutItemText strong {
-  font-size: 25px;
-  font-weight: 400;
-  color: #B682FE !important;
+
+.number {
+  font-size: 130px;
+  line-height: 30px;
 }
-.aboutItem::before{
-    content: "";
-    /* position: absolute; */
-    width: 100%;
-    bottom: 0;
-    height: 2px;
-    margin-top: 15px;
-    background: #fff;
+
+.aboutItemContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 45px;
+  align-items: center;
+  padding-bottom: 1000px;
 }
