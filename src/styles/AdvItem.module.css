@@ -1,0 +1,32 @@
+.advItem {
+    display: flex;
+    height: 525px;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 30px 50px 30px 50px;
+}
+
+.title {
+    padding-top: 50px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.description {
+    padding-top: 40px;
+    font-family: Didact Gothic;
+    font-style: Regular;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.link {
+    color: #B682FE;
+    font-family: Didact Gothic;
+    font-size: 20px;
+    line-height: 20px;
+}
