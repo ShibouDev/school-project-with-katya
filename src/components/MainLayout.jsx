@@ -42,9 +42,21 @@ const MainLayout = ({ children }) => {
             </header>
             {children}
             <footer className={styles.wrapper}>
-                <div className={styles.container}>
-                    <p>Подписывайтесь на нашу рассылку</p>
-                    <input type="email" placeholder='email' required></input>
+                <div className={`${styles.container} ${styles.footerContainer}`}>
+                    <div className={styles.col}>
+                                <p>PROschool</p>
+                                <nav>
+                                    <a href="">Договор оферты</a>
+                                    <a href="">Политика конфиденциальности</a>
+                                    <a href="">Согласие на обработку персональных данных</a>
+                                </nav>
+                    </div>
+                    <div className={styles.col}>
+                                <p>Подписаться на новости</p>
+                                <input type="email" placeholder='email' required></input>
+                                <p className={styles.email}>proschool@gmail.com</p>
+                                <p className={styles.phone}> +7 (910) 111 11 11</p>
+                    </div>
                 </div>
             </footer>
             {openModal &&
