@@ -26,11 +26,13 @@
     width: 100%;
     cursor: pointer;
     line-height: 30px;
-    border-bottom: 1px solid #000;
     padding: 20px 0 20px 0;
     border-top: 1px solid #000;
 }
-.faqitem .faqitemTitle:hover{
+.faqitem:last-child{
+    border-bottom: 1px solid #000;
+}
+.faqitem:hover .faqitemTitle{
     color: #9C73FF;
 }
 .faqitemContent{
