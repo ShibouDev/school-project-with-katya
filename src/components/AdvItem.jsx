@@ -4,7 +4,7 @@ const AdvItem = ({ img, title, description, link }) => {
     return (
         <div className={styles.advItem}>
             <div className={styles.info}>
-                <img src={img} alt="" />
+                <img className={styles.advimg} src={img} alt="" />
                 <p className={styles.title}>{title}</p>
                 <p className={styles.description}>{description}</p>
             </div>

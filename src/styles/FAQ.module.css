@@ -3,7 +3,7 @@
     align-items: center;
     flex-direction: column;
     height: 100vh;
-    max-width: 1370px;
+    max-width: 150vh;
     margin: 0 auto;
     padding: 0;
     justify-content: center;
@@ -14,6 +14,12 @@
     font-size: 25px;
     line-height: 60px;
     margin-bottom: 70px;
+}
+.faqitemTitle {
+    font-family: Unbounded;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
 }
 .faqitem {
     font-size: 35px;
@@ -34,6 +40,11 @@
 }
 .faqitemOpened{
     margin-top: 20px;
+    font-family: Didact Gothic;
+    font-style: Regular;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 300;
 }
 .arrowReverse{
     transform: rotate(180deg);
