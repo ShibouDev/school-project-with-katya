@@ -1,0 +1,6 @@
+.aboutAndAdv {
+    height: 1900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

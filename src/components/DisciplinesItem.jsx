@@ -1,6 +1,6 @@
 import styles from "../styles/DisciplinesItem.module.css"
 
-const DisciplinesItem = ({ img, title, description, price }) => {
+const DisciplinesItem = ({ img, title, description, price, id }) => {
     return (
         <div className={styles.disciplinesItem}>
             <img src={img} alt={img} />
@@ -12,7 +12,7 @@ const DisciplinesItem = ({ img, title, description, price }) => {
                     <p className={styles.price}>{price} рублей</p>
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
 export default DisciplinesItem

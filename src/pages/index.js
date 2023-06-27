@@ -1,21 +1,24 @@
+import About from "../components/About";
+import Adv from "../components/Adv";
+import FAQ from "../components/FAQ";
 import Headline from "../components/Headline";
 import MainLayout from "../components/MainLayout";
-import About from "../components/About";
 import Oge from "../components/Oge";
-import FAQ from "../components/FAQ";
-import Adv from "../components/Adv"
+import styles from "../styles/pages/index.module.css";
 
 
 const MainPage = () => {
   return (
     <>
       <MainLayout>
-        <Headline/>
-        <About/>
-        <Adv/>
-        <Oge/>
+        <Headline />
+        <div className={styles.aboutAndAdv}>
+          <About />
+          <Adv />
+        </div>
+        <Oge />
         {/* <EGE/> */}
-        <FAQ/>
+        <FAQ />
       </MainLayout>
     </>
   );
