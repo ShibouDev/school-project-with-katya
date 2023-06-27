@@ -3,7 +3,8 @@
 @import url(https://fonts.googleapis.com/css?family=Didact+Gothic:regular);
 :root{
   --color-purple: #B682FE;
-  --color-gradient-purple: linear-gradient(90deg, rgba(149,98,255,1) 0%, rgba(236,163,254,1) 100%)
+  --color-purple-opacity36: #b682fe36;
+  --color-gradient-purple: linear-gradient(90deg, #9562FF45 0%, #ECA3FE45 100%)
 }
 body {
   margin: 0;

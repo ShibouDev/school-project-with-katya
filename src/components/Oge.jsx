@@ -1,6 +1,5 @@
 import { OgeData } from "../data/OgeData"
 import styles from "../styles/Oge.module.css"
-import { ButtonSecondary } from './ui/Buttons'
 const Oge = () => {
     return (
         <section className={styles.about}>
@@ -13,11 +12,10 @@ const Oge = () => {
                                 <div className={styles.ogeItemContainer2}>
                                     <div className={styles.ogeItemHeader}>
                                         <p className={styles.ogeItemHeaderText}>{el.title}</p>
-                                        <img className={styles.ogeItemHeaderImg} src={el.picture} alt="" />
                                     </div>
                                     <div className={styles.ogeItemBody}>
                                         {(el.buttons).map((buttonTitle) => (
-                                            <ButtonSecondary title={buttonTitle} />
+                                            <a href="/" className={styles.link}>{buttonTitle}</a>
                                         ))}
                                     </div>
                                 </div>

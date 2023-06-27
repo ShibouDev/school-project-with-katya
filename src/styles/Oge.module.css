@@ -8,8 +8,16 @@
     align-content: center;
     width: 100%;
 }
+.title2{
+    color: #11111185;
+    justify-content: center;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 30px;
+}
 .item {
     background: var(--color-gradient-purple);
+    border-radius: 25px;
 }
 .ogeItemContainer {
     display: grid;
@@ -41,20 +49,28 @@
     display: flex;
     justify-content: space-between;
 }
-
+.link{
+    text-decoration: underline;
+    font-family: 'Didact Gothic', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.link:not(:last-child){
+    margin-bottom: 18px;
+}
 .ogeItemHeaderText {
     width: 70%;
-    font-family: "Proxima Nova";
-    font-weight: 300;
+    font-weight: 500;
     font-size: 25px;
     line-height: 25px;
-    color: #ffffff;
+    color: #000000;
 }
 
 .ogeItemBody {
     display: flex;
     flex-direction: column;
     width: 50%;
+    margin-top: 60px;
     color: white;
 }
 .buttonSecondary {

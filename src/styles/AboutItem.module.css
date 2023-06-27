@@ -3,19 +3,32 @@
     height: 370px;
     background-color: #FFFFFF;
     border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 .title {
+    width: 70%;
     padding-top: 50px;
     font-weight: 700;
     font-size: 25px;
     line-height: 30px;
 }
-
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .description {
     padding: 30px 40px 30px 40px;
     font-family: Didact Gothic;
     font-style: Regular;
     font-size: 20px;
     line-height: 20px;
+}
+.number{
+    color: var(--color-purple-opacity36);
+    font-weight: 500;
+    font-size: 128px;
 }
