@@ -27,12 +27,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 45px;
-  height: 461px;
-}
-.test{
-  height: 100%;
-  display: flex;
-}
-.test:nth-child(2n){
-  align-items: flex-end;
+  align-items: center;
+  padding-bottom: 430px;
 }

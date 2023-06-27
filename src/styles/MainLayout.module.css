@@ -6,7 +6,7 @@
 }
 
 .container {
-    max-width: 1370px;
+    max-width: 1070px;
     margin: 0 auto;
     padding: 0;
     display: flex;
@@ -50,4 +50,22 @@
 }
 .tooltip:not(:last-child){
     margin-right: 12px
+}
+
+.footerContainer {
+    justify-content: space-between;
+}
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+nav a:not(:last-child) {
+    padding-bottom: 45px;
 }

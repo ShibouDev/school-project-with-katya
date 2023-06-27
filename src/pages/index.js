@@ -3,6 +3,8 @@ import MainLayout from "../components/MainLayout";
 import About from "../components/About";
 import Oge from "../components/Oge";
 import FAQ from "../components/FAQ";
+import Adv from "../components/Adv"
+
 
 const MainPage = () => {
   return (
@@ -10,6 +12,7 @@ const MainPage = () => {
       <MainLayout>
         <Headline/>
         <About/>
+        <Adv/>
         <Oge/>
         {/* <EGE/> */}
         <FAQ/>
